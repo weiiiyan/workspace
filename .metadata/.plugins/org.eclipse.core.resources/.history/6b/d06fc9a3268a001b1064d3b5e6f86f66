@@ -1,0 +1,12 @@
+#ifndef DATE_H_
+#define DATE_H_
+clss Date{
+public:
+	void GetDate();
+	void AddAday();
+protected:
+	int year;
+	int month;
+	int Day;
+};
+#endif /* DATE_H_ */

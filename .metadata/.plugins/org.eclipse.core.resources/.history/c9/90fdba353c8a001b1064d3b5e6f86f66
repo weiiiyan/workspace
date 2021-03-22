@@ -1,0 +1,34 @@
+#include "filo.h"
+#include <iostream>
+
+using namespace std;
+
+struct Node{
+	int a;
+	Node * next;
+};
+
+void FILO::put(int item){
+	Node *q = ptr;
+	Node b;
+
+	while(q->next != NULL){
+		q = q->next;
+	}
+	q->next = &b;
+	b.a = item;
+	b.next = NULL;
+}
+int FILO::get(){
+	Node *q = ptr;
+	if(q == NULL){
+		cout << "FILO is NULL\n";
+		return 0;
+	}
+	while(q->next->next != NULL){
+		q = q->next;
+	}
+	int a = q->next->a;
+	q->next = NULL;
+	return a;
+}

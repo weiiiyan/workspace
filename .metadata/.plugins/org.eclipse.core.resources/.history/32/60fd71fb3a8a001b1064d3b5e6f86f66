@@ -1,0 +1,21 @@
+#include "filo.h"
+#include <iostream>
+
+using namespace std;
+
+struct Node{
+	int a;
+	Node * next;
+};
+
+void FILO::put(int item){
+	Node *q = ptr;
+	while(q->next != NULL{
+		q = q->next;
+	}
+	Node b;
+	b.a = item;
+	b.next = null;
+
+	q->next = &b;
+}

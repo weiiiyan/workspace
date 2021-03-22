@@ -1,0 +1,26 @@
+#ifndef STUDENT_H_
+#define STUDENT_H_
+
+class Student
+{
+	public:
+		float Grade()
+		{
+			return gpa;
+		}
+		int Hours()
+		{
+			return semesHours;
+		}
+		void AddCourse(int hours,float grade)
+		{
+			gpa = semesHours * gpa + grade * hours;
+			semesHours += hours;
+			gpa /=semesHours;
+		}
+	protected:
+		int semesHours = 0;
+		float gpa = 0;
+};
+
+#endif /* STUDENT_H_ */

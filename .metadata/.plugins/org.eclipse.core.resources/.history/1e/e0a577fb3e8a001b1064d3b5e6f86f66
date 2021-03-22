@@ -1,0 +1,13 @@
+#ifndef FILO_H_
+#define FILO_H_
+
+struct Node;
+class FILO{
+public:
+	FILO();
+	void put(int item);
+	int get();
+	struct Node * ptr;
+};
+
+#endif /* FILO_H_ */

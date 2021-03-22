@@ -1,0 +1,21 @@
+22:24:24 **** Incremental Build of configuration Debug for project 265_Student_name ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o name.o ../name.cpp 
+g++ -o 265_Student_name main.o name.o 
+Info: Nothing to build for 265_Student_name
+22:25:08 **** Incremental Build of configuration Debug for project 265_Student_name ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o name.o ../name.cpp 
+g++ -o 265_Student_name main.o name.o 
+22:26:39 **** Incremental Build of configuration Debug for project 265_Student_name ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o name.o ../name.cpp 
+g++ -o 265_Student_name main.o name.o 
+22:26:54 **** Incremental Build of configuration Debug for project 265_Student_name ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o name.o ../name.cpp 
+g++ -o 265_Student_name main.o name.o 
+22:27:23 **** Incremental Build of configuration Debug for project 265_Student_name ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o name.o ../name.cpp 
+g++ -o 265_Student_name main.o name.o 

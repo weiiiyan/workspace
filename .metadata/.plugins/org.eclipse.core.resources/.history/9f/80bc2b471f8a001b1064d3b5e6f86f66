@@ -1,0 +1,15 @@
+#include <iostream>
+#include "cat.h"
+
+using namespace std;
+
+int main(){
+	Cat frisky;
+	frisky.SetAge(5);
+	frisky.Meow();
+	cout <<"frishy is a cat who is"
+			<<frisky.GetAge()
+			<<" years old.\n"
+	frishy.Meow();
+	return 0;
+}

@@ -1,0 +1,7 @@
+22:13:35 **** Incremental Build of configuration Debug for project 253_FILO ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o filo.o ../filo.cpp 
+g++ -o 253_FILO filo.o main.o 
+
+22:13:36 Build Finished. 0 errors, 0 warnings. (took 1s.67ms)
+
