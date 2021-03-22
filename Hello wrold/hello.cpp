@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
-	cout << "Hello Wrold";
+	int n(20);                            //== int = 20;
+	cout << "Hello Wrold " << n << endl;
 	return 0;
 }

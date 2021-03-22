@@ -3,7 +3,7 @@
 
 class Student{
 public:
-	Student(const char* pName);
+	Student(char* pName);
 	~Student();
 protected:
 	char name[20];
