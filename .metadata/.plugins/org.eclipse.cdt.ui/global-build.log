@@ -1,28 +1,29 @@
-21:37:16 **** Incremental Build of configuration Debug for project 282_Employee_modify_answer ****
+22:25:20 **** Incremental Build of configuration Debug for project 293_Josephus ****
 Info: Internal Builder is used for build
-g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
-../main.cpp: In function ‘int main()’:
-../main.cpp:4:12: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
-    4 |  Employ em("Mark Brooks","5 West St.","Revere","CA","12290");
-      |            ^~~~~~~~~~~~~
-../main.cpp:4:26: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
-    4 |  Employ em("Mark Brooks","5 West St.","Revere","CA","12290");
-      |                          ^~~~~~~~~~~~
-../main.cpp:4:39: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
-    4 |  Employ em("Mark Brooks","5 West St.","Revere","CA","12290");
-      |                                       ^~~~~~~~
-../main.cpp:4:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
-    4 |  Employ em("Mark Brooks","5 West St.","Revere","CA","12290");
-      |                                                ^~~~
-../main.cpp:4:53: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
-    4 |  Employ em("Mark Brooks","5 West St.","Revere","CA","12290");
-      |                                                     ^~~~~~~
-../main.cpp:8:16: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
-    8 |  em.ChangeName("Richard Voss");
-      |                ^~~~~~~~~~~~~~
-../main.cpp:5:7: warning: unused variable ‘buffer’ [-Wunused-variable]
-    5 |  char buffer[255];
-      |       ^~~~~~
-g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o Employee_modify_answer.o ../Employee_modify_answer.cpp 
-g++ -o 282_Employee_modify_answer Employee_modify_answer.o main.o 
-Info: Nothing to build for 282_Employee_modify_answer
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o ring.o ../ring.cpp 
+g++ -o 293_Josephus jose.o main.o ring.o 
+Info: Nothing to build for 293_Josephus
+22:26:33 **** Incremental Build of configuration Debug for project 293_Josephus ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o ring.o ../ring.cpp 
+g++ -o 293_Josephus jose.o main.o ring.o 
+22:26:47 **** Incremental Build of configuration Debug for project 293_Josephus ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o ring.o ../ring.cpp 
+g++ -o 293_Josephus jose.o main.o ring.o 
+22:28:15 **** Incremental Build of configuration Debug for project 293_Josephus ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o ring.o ../ring.cpp 
+g++ -o 293_Josephus jose.o main.o ring.o 
+22:28:44 **** Incremental Build of configuration Debug for project 293_Josephus ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o jose.o ../jose.cpp 
+g++ -o 293_Josephus jose.o main.o ring.o 
+22:29:00 **** Incremental Build of configuration Debug for project 293_Josephus ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o jose.o ../jose.cpp 
+g++ -o 293_Josephus jose.o main.o ring.o 
+22:29:19 **** Incremental Build of configuration Debug for project 293_Josephus ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o jose.o ../jose.cpp 
+g++ -o 293_Josephus jose.o main.o ring.o 
