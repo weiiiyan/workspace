@@ -1,29 +1,171 @@
-22:25:20 **** Incremental Build of configuration Debug for project 293_Josephus ****
+17:09:31 **** Incremental Build of configuration Debug for project 300_Course_Students ****
 Info: Internal Builder is used for build
-g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o ring.o ../ring.cpp 
-g++ -o 293_Josephus jose.o main.o ring.o 
-Info: Nothing to build for 293_Josephus
-22:26:33 **** Incremental Build of configuration Debug for project 293_Josephus ****
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o students.o ../students.cpp 
+../students.cpp: In member function ‘void students::Add_Course(Course*, double)’:
+../students.cpp:36:17: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   36 |  if(num_courses = 5){
+      |     ~~~~~~~~~~~~^~~
+g++ -o 300_Course_Students course.o main.o students.o 
+17:09:52 **** Incremental Build of configuration Debug for project 300_Course_Students ****
 Info: Internal Builder is used for build
-g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o ring.o ../ring.cpp 
-g++ -o 293_Josephus jose.o main.o ring.o 
-22:26:47 **** Incremental Build of configuration Debug for project 293_Josephus ****
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o students.o ../students.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+17:10:13 **** Incremental Build of configuration Debug for project 300_Course_Students ****
 Info: Internal Builder is used for build
-g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o ring.o ../ring.cpp 
-g++ -o 293_Josephus jose.o main.o ring.o 
-22:28:15 **** Incremental Build of configuration Debug for project 293_Josephus ****
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+17:11:00 **** Incremental Build of configuration Debug for project 300_Course_Students ****
 Info: Internal Builder is used for build
-g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o ring.o ../ring.cpp 
-g++ -o 293_Josephus jose.o main.o ring.o 
-22:28:44 **** Incremental Build of configuration Debug for project 293_Josephus ****
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+../main.cpp: In function ‘int main()’:
+../main.cpp:12:20: error: cannot convert ‘const char [5]’ to ‘Course*’
+   12 |  s.Get_Coursegrade("Math");
+      |                    ^~~~~~
+      |                    |
+      |                    const char [5]
+In file included from ../main.cpp:1:
+../students.h:12:23: note:   initializing argument 1 of ‘void students::Get_Coursegrade(Course*)’
+   12 |  void Get_Coursegrade(Course*);
+      |                       ^~~~~~~
+17:11:27 **** Incremental Build of configuration Debug for project 300_Course_Students ****
 Info: Internal Builder is used for build
-g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o jose.o ../jose.cpp 
-g++ -o 293_Josephus jose.o main.o ring.o 
-22:29:00 **** Incremental Build of configuration Debug for project 293_Josephus ****
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+../main.cpp: In function ‘int main()’:
+../main.cpp:12:20: error: cannot convert ‘const char [5]’ to ‘Course*’
+   12 |  s.Get_Coursegrade("Math");
+      |                    ^~~~~~
+      |                    |
+      |                    const char [5]
+In file included from ../main.cpp:1:
+../students.h:12:23: note:   initializing argument 1 of ‘void students::Get_Coursegrade(Course*)’
+   12 |  void Get_Coursegrade(Course*);
+      |                       ^~~~~~~
+17:11:58 **** Incremental Build of configuration Debug for project 300_Course_Students ****
 Info: Internal Builder is used for build
-g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o jose.o ../jose.cpp 
-g++ -o 293_Josephus jose.o main.o ring.o 
-22:29:19 **** Incremental Build of configuration Debug for project 293_Josephus ****
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+../main.cpp: In function ‘int main()’:
+../main.cpp:12:20: error: cannot convert ‘Course’ to ‘Course*’
+   12 |  s.Get_Coursegrade(s1);
+      |                    ^~
+      |                    |
+      |                    Course
+In file included from ../main.cpp:1:
+../students.h:12:23: note:   initializing argument 1 of ‘void students::Get_Coursegrade(Course*)’
+   12 |  void Get_Coursegrade(Course*);
+      |                       ^~~~~~~
+17:12:14 **** Incremental Build of configuration Debug for project 300_Course_Students ****
 Info: Internal Builder is used for build
-g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o jose.o ../jose.cpp 
-g++ -o 293_Josephus jose.o main.o ring.o 
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+17:13:41 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+18:18:06 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o course.o ../course.cpp 
+../course.cpp: In member function ‘bool Course::Add_Student(char*, double)’:
+../course.cpp:22:5: error: ‘num_student’ was not declared in this scope; did you mean ‘num_students’?
+   22 |  if(num_student == 30){
+      |     ^~~~~~~~~~~
+      |     num_students
+../course.cpp:26:2: error: ‘num_student’ was not declared in this scope; did you mean ‘num_students’?
+   26 |  num_student ++;
+      |  ^~~~~~~~~~~
+      |  num_students
+../course.cpp:32:1: warning: control reaches end of non-void function [-Wreturn-type]
+   32 | }
+      | ^
+18:18:18 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o students.o ../students.cpp 
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o course.o ../course.cpp 
+../course.cpp: In member function ‘bool Course::Add_Student(char*, double)’:
+../course.cpp:32:1: warning: control reaches end of non-void function [-Wreturn-type]
+   32 | }
+      | ^
+g++ -o 300_Course_Students course.o main.o students.o 
+18:19:15 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o students.o ../students.cpp 
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o course.o ../course.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+18:19:49 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o course.o ../course.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+18:21:22 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+18:22:58 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o course.o ../course.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+18:28:47 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o course.o ../course.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+18:30:05 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o course.o ../course.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+18:30:49 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o course.o ../course.cpp 
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o students.o ../students.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+18:31:42 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o course.o ../course.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+18:32:17 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o course.o ../course.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+18:32:34 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o course.o ../course.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+18:34:33 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o course.o ../course.cpp 
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o students.o ../students.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+18:36:42 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o course.o ../course.cpp 
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o students.o ../students.cpp 
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+18:37:44 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o course.o ../course.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+18:39:14 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o course.o ../course.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+18:39:46 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o course.o ../course.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+19:42:50 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+19:43:06 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+19:43:43 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
+19:48:27 **** Incremental Build of configuration Debug for project 300_Course_Students ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+g++ -o 300_Course_Students course.o main.o students.o 
