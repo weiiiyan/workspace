@@ -23,6 +23,9 @@ int main(){
 	A* ptr1 = new A(1);
 	A* ptr2 = new A(2);
 	A* ptr3 = new A(3);
+    cout << (*ptr1).a << endl;
+    cout << (*ptr2).a << endl;
+    cout << (*ptr3).a << endl;
 	C C1;
 	C1.b.APtrVector.push_back(ptr1);
 	C1.b.APtrVector.push_back(ptr2);
@@ -38,6 +41,10 @@ int main(){
     }
     vector<A*>(CCC->b.APtrVector).swap(CCC->b.APtrVector);
     cout << "After deleting two elements in the vector, now the capacity is: " << CCC->b.APtrVector.capacity() << endl;
+    cout << (*ptr1).a << endl;
     cout << (*ptr2).a << endl;
-    cout << CCC->b.APtrVector.empty();
+    cout << (*ptr3).a << endl;
+    cout << CCC->b.APtrVector.empty() << endl;
+    int aa = 0x88;
+    cout << static_cast<bool>(aa & (0x01 << 3));
 }
