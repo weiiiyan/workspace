@@ -1,6 +1,37 @@
-23:29:32 **** Incremental Build of configuration Debug for project 327_static_data_member ****
+22:30:35 **** Rebuild of configuration Debug for project 347_inherit ****
 Info: Internal Builder is used for build
-g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o student.o ../student.cpp 
-g++ -o 327_static_data_member main.o student.o 
-Info: Nothing to build for const_ptr_noconst
-Info: Nothing to build for 327_static_data_member
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+g++ -o 347_inherit main.o 
+Info: Nothing to build for 337_Leisure
+Info: Nothing to build for 347_inherit
+22:32:12 **** Incremental Build of configuration Debug for project 347_inherit ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+g++ -o 347_inherit main.o 
+22:33:29 **** Incremental Build of configuration Debug for project 347_inherit ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+../main.cpp: In member function ‘int B::getS()’:
+../main.cpp:23:10: error: ‘int A::s’ is private within this context
+   23 |   return s;
+      |          ^
+../main.cpp:7:6: note: declared private here
+    7 |  int s = 1;
+      |      ^
+22:35:38 **** Incremental Build of configuration Debug for project 347_inherit ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+g++ -o 347_inherit main.o 
+22:44:04 **** Incremental Build of configuration Debug for project 347_inherit ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+../main.cpp:17:13: error: expected ‘;’ before ‘int’
+   17 |  using A::ss
+      |             ^
+      |             ;
+   18 |  int getSs()
+      |  ~~~         
+22:44:17 **** Incremental Build of configuration Debug for project 347_inherit ****
+Info: Internal Builder is used for build
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -Wno-attributes -o main.o ../main.cpp 
+g++ -o 347_inherit main.o 
